@@ -37,7 +37,7 @@ Next, you need to consider what model (and billing plan) you want to use to powe
 
 Now I'll do a live demo. I'm using Alibaba Cloud to show how to start a simple application server with a managed OpenClaw implementation.
 
-I'll create a fresh virtual machine and apply the latest OpenClaw image (version 226.2.9). For the model setting, Alibaba defaults to M3.5 Plus, though you can switch to models from other frontier labs if you prefer.
+I'll create a fresh virtual machine and apply the latest OpenClaw image (version 226.2.9). For the model setting, Alibaba Cloud defaults to Qwen 3.5 Plus, though you can switch to models from other frontier labs if you prefer.
 
 Next, I will configure the ports to allow Telegram to connect with this server, execute the configuration plan, and access the OpenClaw Web User Interface (the gateway).  
 To pair OpenClaw with Telegram, you first need to use Telegram's BotFather. I'll create a new bot (e.g., openclaw-meetup-test-1-bot) and grab the token. Then, I open the terminal. The word "terminal" might sound concerning to non-technical people, but it's not too difficult. I'll enter the following command:
