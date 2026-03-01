@@ -12,7 +12,7 @@ OpenClaw was started by Peter Steinberger. It is an incredible framework because
 
 Here is how OpenClaw is structured:
 
-* **SO Document:** Think of this as a way to tell the agent how it should behave. OpenClaw provides a comprehensive SO document (essentially a system prompt). Many people customize this to give the agent a personality that fits their customer persona.  
+* **Soul Document:** Think of this as a way to tell the agent how it should behave. OpenClaw provides a comprehensive Soul document (essentially a system prompt). Many people customize this to give the agent a personality that fits their customer persona.  
 * **Cron Jobs:** If you check the official documentation, a cron job is effectively a scheduler. If you have an intense task-like parsing a 10,000-row spreadsheet at 9:00 AM every day-you use a cron job.  
 * **Heartbeats:** Heartbeats are easily mixed up with cron jobs, but a heartbeat is proactive. For example, you can set the agent to give you proactive updates at 30-minute intervals without you needing to prompt it first.
 
